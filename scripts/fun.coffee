@@ -14,27 +14,6 @@ randomInt = (low, high) ->
 
 module.exports = (robot) ->
 
-
-  chantParts = [
-    "PHI",
-    "IOTA",
-    "KAPPA",
-    "ALPHA",
-    "PI",
-    "PI",
-    "ALPHA",
-    "THETA",
-    "ETA",
-    "TAU",
-    "ALPHA",
-    "GOD AND COLLEGE",
-    "GOD AND COLLEGE",
-    "PHI",
-    "KAPPA",
-    "THETA",
-    "HO!!!"
-  ]
-
   lennySnakeParts = [
     "╚═( ͡° ͜ʖ ͡°)═╝",
     "╚═(███)═╝",
@@ -57,23 +36,6 @@ module.exports = (robot) ->
   ]
 
   lennySnakeTick = 300 # milliseconds
-  chantTick = 300
-
-  robot.hear /\bPHI\b/, (res) ->
-    res.send "PHI"
-    waitingForIota = true
-    setTimeout(() ->
-      waitingForIota = false
-    , 4000)
-
-  robot.hear /\bIOTA\b/, (res) ->
-    if waitingForIota
-      res.send "IOTA"
-      sendFrom = (i) ->
-        if i < chantParts.length
-          res.send chantParts[i]
-          setTimeout sendFrom, lennySnakeTick, i + 1
-      setTimeout sendFrom, 1200, 2
 
   robot.hear /lennysnake/i, (res) ->
     sendFrom = (i) ->

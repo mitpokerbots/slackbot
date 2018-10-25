@@ -8,17 +8,12 @@
     "start": "node_modules/hubot/bin/hubot -l peckbot"
   },
   "dependencies": {
-    "chrono-node": "^1.0.8",
-    "google-auth-library": "^0.9.6",
-    "google-spreadsheet": "^2.0.6",
-    "googleapis": "^2.1.5",
     "hubot": "^2.12.0",
     "hubot-conf": "^1.0.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-espn": "^1.0.1",
     "hubot-group": "^1.0.0",
     "hubot-help": "^0.1.1",
-    "hubot-postgres-brain": "^0.1.0",
     "hubot-principles": "^1.0.0",
     "hubot-redis-brain": "0.0.2",
     "hubot-redisred": "^1.1.4",

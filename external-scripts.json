@@ -4,7 +4,7 @@
   "hubot-espn",
   "hubot-group",
   "hubot-help",
-  "hubot-postgres-brain",
+  "hubot-redis-brain",
   "hubot-seen",
   "hubot-shortcut",
   "hubot-principles",
