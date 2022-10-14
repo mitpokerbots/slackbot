@@ -1,12 +1,12 @@
 [
-  "hubot-conf",
   "hubot-diagnostics",
-  "hubot-espn",
-  "hubot-group",
   "hubot-help",
+  "hubot-google-images",
+  "hubot-google-translate",
+  "hubot-pugme",
   "hubot-redis-brain",
-  "hubot-seen",
-  "hubot-shortcut",
-  "hubot-principles",
-  "hubot-redisred"
+  "hubot-rules",
+  "hubot-shipit",
+  "hubot-redisred",
+  "hubot-heroku-keepalive"
 ]
